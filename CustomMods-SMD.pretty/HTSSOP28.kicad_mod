@@ -1,4 +1,4 @@
-(module HTSSOP28 (layer F.Cu) (tedit 5933C010)
+(module HTSSOP28 (layer F.Cu) (tedit 5DF5AD5E)
   (fp_text reference REF** (at 0 5.715) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1)))
   )
@@ -59,9 +59,9 @@
   (pad 29 thru_hole circle (at 0 2.6) (size 0.508 0.508) (drill 0.381) (layers *.Cu *.Mask))
   (pad 29 thru_hole circle (at 1.3 2.6) (size 0.508 0.508) (drill 0.381) (layers *.Cu *.Mask))
   (pad 0 smd rect (at 0 -1.25) (size 1.75 1.75) (layers F.Paste))
-  (model smd_dil/tssop-28.wrl
+  (model ${PACKAGES3D1}/HTSSOP28.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 0 0 0))
   )
 )

@@ -1,0 +1,13 @@
+(module ARROW_RIGHT (layer F.Cu) (tedit 5B6F0067)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (fp_text value ARROW_RIGHT (at 0 -0.5) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (fp_arc (start 0 0) (end -2.4 0) (angle 90) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.3 -2.1) (end 0 -2.4) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.3 -2.7) (end -0.3 -2.1) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0 -2.4) (end -0.3 -2.7) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.2 -2.2) (end -0.2 -2.6) (layer F.SilkS) (width 0.15))
+)

@@ -1,4 +1,4 @@
-(module MountingHole_5.3mm_M5 (layer F.Cu) (tedit 5A77CCB6)
+(module MountingHole_5.3mm_M5 (layer F.Cu) (tedit 5B65F5F3)
   (descr "Mounting Hole 5.3mm, no annular, M5")
   (tags "mounting hole 5.3mm no annular m5")
   (fp_text reference REF** (at 0 1.8) (layer F.SilkS) hide

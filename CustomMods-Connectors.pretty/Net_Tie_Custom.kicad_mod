@@ -1,0 +1,11 @@
+(module Net_Tie_Custom (layer F.Cu) (tedit 5EE772F4)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.1 0.1) (thickness 0.025)))
+  )
+  (fp_text value Net_Tie_Custom (at 0 0) (layer F.Fab) hide
+    (effects (font (size 0.1 0.1) (thickness 0.025)))
+  )
+  (fp_poly (pts (xy 3 0.5) (xy -3 0.5) (xy -3 -0.5) (xy 3 -0.5)) (layer F.Cu) (width 0.1))
+  (pad 1 thru_hole circle (at -3 0) (size 1.2 1.2) (drill 0.5) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 3 0) (size 1.2 1.2) (drill 0.5) (layers *.Cu *.Mask))
+)

@@ -1,0 +1,9 @@
+(module VIA-THERMAL-0.8MM_DIA (layer F.Cu) (tedit 5B3CB887)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (fp_text value VIA-THERMAL-0.8MM_DIA (at 0 -0.6) (layer F.Fab) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.4) (layers *.Cu *.Mask))
+)

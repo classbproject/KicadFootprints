@@ -1,4 +1,4 @@
-(module Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer F.Cu) (tedit 5AE80CB3)
+(module Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer F.Cu) (tedit 5BFBA304)
   (descr "Circular Fiducial, 1mm bare copper top; 2.54mm keepout")
   (tags marker)
   (attr virtual)
@@ -10,5 +10,5 @@
   )
   (fp_circle (center 0 0) (end 1.55 0) (layer F.CrtYd) (width 0.05))
   (pad 1 smd circle (at 0 0) (size 1 1) (layers F.Cu F.Mask)
-    (solder_mask_margin 0.77) (clearance 1))
+    (solder_mask_margin 0.77) (clearance 0.77))
 )

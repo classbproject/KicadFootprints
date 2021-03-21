@@ -14,7 +14,7 @@
   (fp_line (start -0.762 1.27) (end 0.762 1.27) (layer F.SilkS) (width 0.15))
   (fp_line (start 0.762 1.27) (end 1.27 0.762) (layer F.SilkS) (width 0.15))
   (fp_line (start 1.27 0.762) (end 1.27 -0.762) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.85) (layers *.Cu *.Mask))
   (model "../../../../../../nextcloud/electronics/Kicad/FCAD generated/PinHeader_1x01_P254mm_Vertical.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

@@ -1,0 +1,13 @@
+(module nRF24L01P-antenna (layer F.Cu) (tedit 5FBB5198)
+  (fp_text reference REF** (at 0 1.65) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value nRF24L01P-antenna (at 0 3.2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0 0) (end 5.17 -5.17) (layer F.Cu) (width 1.27))
+  (fp_line (start 5.17 -5.17) (end 12.77 -5.17) (layer F.Cu) (width 1.27))
+  (fp_line (start 12.77 -5.17) (end 12.77 7.83) (layer F.Cu) (width 1.27))
+  (fp_line (start 12.77 7.83) (end 11.5 7.83) (layer F.Cu) (width 1.27))
+  (pad 1 smd circle (at 0 0) (size 1.27 1.27) (layers F.Cu))
+)

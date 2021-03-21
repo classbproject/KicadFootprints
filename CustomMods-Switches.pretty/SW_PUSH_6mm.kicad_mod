@@ -1,4 +1,4 @@
-(module SW_PUSH_6mm (layer F.Cu) (tedit 5A780151)
+(module SW_PUSH_6mm (layer F.Cu) (tedit 5E10C300)
   (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
   (tags "tact sw push 6mm")
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
@@ -14,8 +14,8 @@
   (pad 1 thru_hole circle (at -3.325 -2.25 90) (size 2 2) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 3.325 2.25 90) (size 2 2) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at 3.325 -2.25 90) (size 2 2) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
-  (model "../../../../../../nextcloud/electronics/Kicad/FCAD generated/Tactile switch 6x6x5mm.wrl"
-    (at (xyz 0.005 0 0))
+  (model "${PACKAGES3D2}/Tactile switch 6x6x5mm.step"
+    (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

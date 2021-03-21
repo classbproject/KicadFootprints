@@ -1,4 +1,4 @@
-(module TSSOP-28_4.4x9.7mm_Pitch0.65mm (layer F.Cu) (tedit 57C842A4)
+(module TSSOP-28_4.4x9.7mm_Pitch0.65mm (layer F.Cu) (tedit 5DF5C882)
   (descr "TSSOP28: plastic thin shrink small outline package; 28 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot361-1_po.pdf)")
   (tags "SSOP 0.65")
   (attr smd)
@@ -47,8 +47,8 @@
   (pad 26 smd rect (at 2.85 -2.925) (size 1.1 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 27 smd rect (at 2.85 -3.575) (size 1.1 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 28 smd rect (at 2.85 -4.225) (size 1.1 0.4) (layers F.Cu F.Paste F.Mask))
-  (model Housings_SSOP.3dshapes/TSSOP-28_4.4x9.7mm_Pitch0.65mm.wrl
-    (at (xyz 0 0 0))
+  (model "${PACKAGES3D1}/User Library-TSSOP-28_P065.STEP"
+    (offset (xyz 0 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

@@ -1,4 +1,4 @@
-(module JST_VH_B2P-VH_3.96MM (layer F.Cu) (tedit 59E977FA)
+(module JST_VH_B2P-VH_3.96MM (layer F.Cu) (tedit 5E260794)
   (fp_text reference REF** (at 0 3.2 180) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1)))
   )
@@ -10,9 +10,9 @@
   (fp_line (start -4 4.25) (end 4 4.25) (layer F.SilkS) (width 0.1))
   (fp_line (start -4 -4.25) (end 4 -4.25) (layer F.SilkS) (width 0.1))
   (fp_line (start -4 -2) (end 4 -2) (layer F.SilkS) (width 0.1))
-  (pad 1 thru_hole oval (at -1.98 0) (size 2.7 4) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole oval (at 1.98 0) (size 2.7 4) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
-  (model "../../../../../../nextcloud/electronics/Kicad/FCAD generated/JST_VH_B2P-VH_3.96MM.wrl"
+  (pad 1 thru_hole oval (at -1.98 0) (size 2.7 4) (drill 1.5) (layers *.Cu *.Mask))
+  (pad 2 thru_hole oval (at 1.98 0) (size 2.7 4) (drill 1.5) (layers *.Cu *.Mask))
+  (model ${PACKAGES3D2}/JST_VH_B2P-VH_3.96MM.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

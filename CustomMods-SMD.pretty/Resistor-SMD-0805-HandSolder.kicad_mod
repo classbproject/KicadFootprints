@@ -1,4 +1,4 @@
-(module Resistor-SMD-0805-HandSolder (layer F.Cu) (tedit 57EAD1A0)
+(module Resistor-SMD-0805-HandSolder (layer F.Cu) (tedit 5D3DD7B0)
   (descr "Resistor, SMD, 0805, Hand soldering,")
   (tags "Resistor, SMD, 0805, Hand soldering,")
   (attr smd)
@@ -14,9 +14,14 @@
   (fp_line (start -2.286 -0.889) (end -2.286 0.889) (layer F.SilkS) (width 0.1))
   (fp_line (start -2.286 0.889) (end -0.635 0.889) (layer F.SilkS) (width 0.1))
   (fp_line (start -2.286 -0.889) (end -0.635 -0.889) (layer F.SilkS) (width 0.1))
-  (pad 1 smd rect (at -1.30048 0) (size 1.50114 1.19888) (layers F.Cu F.Paste F.SilkS F.Mask))
-  (pad 2 smd rect (at 1.30048 0) (size 1.50114 1.19888) (layers F.Cu F.Paste F.SilkS F.Mask))
+  (pad 1 smd roundrect (at -1.30048 0) (size 1.50114 1.19888) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+  (pad 2 smd roundrect (at 1.30048 0) (size 1.50114 1.19888) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${PACKAGES3D1}/R_0805.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

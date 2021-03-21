@@ -1,4 +1,4 @@
-(module Resistor-SMD-2512-HandSolder (layer F.Cu) (tedit 528AE465)
+(module Resistor-SMD-2512-HandSolder (layer F.Cu) (tedit 5D3DD9E8)
   (descr "Resistor, SMD, 2512, Hand soldering,")
   (tags "Resistor, SMD, 2512, Hand soldering,")
   (attr smd)
@@ -14,9 +14,14 @@
   (fp_line (start -7.366 -2.032) (end -7.366 2.032) (layer F.SilkS) (width 0.127))
   (fp_line (start -7.366 2.032) (end -2.54 2.032) (layer F.SilkS) (width 0.127))
   (fp_line (start -7.366 -2.032) (end -2.54 -2.032) (layer F.SilkS) (width 0.127))
-  (pad 1 smd rect (at -4.8006 0) (size 4.50088 3.2004) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 4.8006 0) (size 4.50088 3.2004) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd roundrect (at -4.8006 0) (size 4.50088 3.2004) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+  (pad 2 smd roundrect (at 4.8006 0) (size 4.50088 3.2004) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (model Resistors_SMD.3dshapes/R_2512_HandSoldering.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${PACKAGES3D1}/R_2512.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

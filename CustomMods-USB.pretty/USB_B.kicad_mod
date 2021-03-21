@@ -1,4 +1,4 @@
-(module USB_B (layer F.Cu) (tedit 55B36073)
+(module USB_B (layer F.Cu) (tedit 5E10C7B4)
   (descr "USB B connector")
   (tags "USB_B USB_DEV")
   (fp_text reference REF** (at 11.049 1.27 90) (layer F.SilkS)
@@ -21,10 +21,10 @@
   (pad 1 thru_hole circle (at 0 0 270) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 1.99898 0 270) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 1.99898 2.54 270) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask))
-  (pad 5 thru_hole circle (at 4.699 7.26948 270) (size 2.70002 2.70002) (drill 2.30124) (layers *.Cu *.Mask))
-  (pad 5 thru_hole circle (at 4.699 -4.72948 270) (size 2.70002 2.70002) (drill 2.30124) (layers *.Cu *.Mask))
-  (model "../../../../../../nextcloud/electronics/Kicad/FCAD generated/USB-B_67068-0000-molex.wrl"
-    (at (xyz 0 0 0.001))
+  (pad 5 thru_hole circle (at 4.699 7.26948 270) (size 3.5 3.5) (drill 2.30124) (layers *.Cu *.Mask))
+  (pad 5 thru_hole circle (at 4.699 -4.72948 270) (size 3.5 3.5) (drill 2.30124) (layers *.Cu *.Mask))
+  (model "${PACKAGES3D1}/USB 2.0 Type B Connector Right Angle (Würth 61400416121).stp"
+    (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )

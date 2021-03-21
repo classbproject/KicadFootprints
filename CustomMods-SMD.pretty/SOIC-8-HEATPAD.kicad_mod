@@ -1,4 +1,4 @@
-(module SOIC-8-HEATPAD (layer F.Cu) (tedit 5933C0E8)
+(module SOIC-8-HEATPAD (layer F.Cu) (tedit 5DF5B420)
   (descr "SMALL OUTLINE IC")
   (tags "SMALL OUTLINE IC")
   (attr smd)
@@ -34,7 +34,8 @@
   (pad 9 thru_hole circle (at -1.493 0.75) (size 0.381 0.381) (drill 0.254) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at 0.007 0.75) (size 0.381 0.381) (drill 0.254) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at 1.507 0.75) (size 0.381 0.381) (drill 0.254) (layers *.Cu *.Mask))
-  (model smd_dil/so-8.wrl
+  (pad 9 smd roundrect (at 0 0) (size 2.5 1.5) (layers F.Cu F.Paste) (roundrect_rratio 0.25))
+  (model ${PACKAGES3D2}/SOIC-8_3.9x4.9mm_Pitch1.27mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

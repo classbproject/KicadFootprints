@@ -1,4 +1,4 @@
-(module CRYSTAL-HC49S (layer F.Cu) (tedit 58D6194B)
+(module CRYSTAL-HC49S (layer F.Cu) (tedit 5E10C498)
   (descr CRYSTAL)
   (tags CRYSTAL)
   (attr virtual)
@@ -24,7 +24,7 @@
   (fp_arc (start 3.048 0) (end 3.048 -2.159) (angle 180) (layer F.SilkS) (width 0.1))
   (pad 1 thru_hole circle (at -2.5 0) (size 1.8 1.8) (drill 0.635) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 2.5 0) (size 1.8 1.8) (drill 0.635) (layers *.Cu *.Mask F.SilkS))
-  (model "../../../../../../nextcloud/electronics/Kicad/FCAD generated/Crystal_HC49-4H_Vertical.wrl"
+  (model ${PACKAGES3D2}/Crystal_HC49-4H_Vertical.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
